@@ -194,7 +194,14 @@ p{
         font-size: 25px;
         color: black;
         margin-left: 155px;
+        animation-name: ola;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
     } 
+    @keyframes ola {
+        from{color: black;}
+        to{color: blue;}
+    }
     .navbar{
         display: inline-block;
         width: fit-content;
