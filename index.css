@@ -200,16 +200,19 @@ p{
     } 
     @keyframes ola {
         from{color: black;}
-        to{color: blue;}
+        to{color: orange;}
     }
     .navbar{
-        display: inline-block;
+        display: block;
         width: fit-content;
         padding: 5px;
     }
     .container{
         display: inline-block;
         width: fit-content;
+        background-image: url(download\ 1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .input-search{
         display: flex;
